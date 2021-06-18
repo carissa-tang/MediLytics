@@ -1,0 +1,179 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, rgba(244, 238, 255, 0) 0%, #dad4f6 100%);
+  background-attachment: fixed;
+}
+
+section {
+  justify-content: flex-start !important;
+  min-height: 87vh;
+}
+
+.ml1 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(214,199,116, 0.75);
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  color: #424874;
+}
+
+h2 {
+  font-size: 2em;
+  color: #424874;
+}
+button {
+  display: inline-block;
+  color: white;
+  background: #424874;
+  font: inherit;
+  border: none;
+  min-width: 100px;
+  max-width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: 3em;
+}
+
+button:hover {
+  background: #d6c774;
+  color: black;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+  margin: 0 10px;
+}
+
+button:focus {
+  font-weight: 700;
+  transform: scale(1.1);
+  margin: 0 10px;
+}
+
+.fact-section {
+  margin-top: 40px;
+}
+
+footer {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.source, #data-source {
+  margin-top: 5px;
+  font-size: 12px
+}
+
+#data-source {
+  max-width: 800px;
+}
+
+#fact {
+  margin: auto;
+  min-height: 3em;
+  max-width: 800px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#inner-fact {
+  padding: 0 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+#filter-section {
+  margin: 20px;
+  background: white;
+ 
+  padding:30px;
+}
+
+#graph-section {
+  margin: 10px;
+}
+
+#graph {
+  max-width: 75%;
+  min-width: 50%;
+  margin-bottom: 20px;
+}
+
+.btn-right {
+  float: right;
+}
+
+.content {
+  color: #424874
+}
+
+#rcorners1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 25px;
+  border: 2px solid #d6c774;
+  padding: 30px; 
+  min-width: 400px;
+}
+
+.nonalign{
+  text-align: left; 
+}
+
+#condition-section {
+  text-align: left;
+  background: white;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  #inner-fact {
+    font-size: 0.8em;
+  }
+  #rcorners1 {
+    min-width: 0;
+  }
+}
